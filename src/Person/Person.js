@@ -5,7 +5,8 @@ const person = () => {
     return (
         <React.Fragment>
             <p>I'm a Person</p>
-            <Button primary>Hi</Button>
+            <Button primary>Primary</Button>
+            <Button secondary>Secondary</Button>
         </React.Fragment>
     )
 }

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Person from "./Person/Person";
+import DropdownTest from "./dropdownTest";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <h1>Hi, from react App!!!</h1>
-        <Person></Person>
+        <DropdownTest></DropdownTest>
       </div>
     );
   }
